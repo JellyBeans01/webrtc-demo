@@ -1,0 +1,65 @@
+*, html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #e2e2e2;
+}
+
+video {
+  width: 48%;
+}
+
+header {
+  background-color: #007fad;
+  padding: 20px 30px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+h1 {
+  color: white;
+}
+
+footer {
+  background-color: #1538ad;
+  padding: 20px 0;
+}
+
+footer > p {
+  text-align: center;
+  color: white;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.content {
+  min-width: 1080px;
+  margin: 0 auto;
+}
+
+.textareas, .videos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+textarea {
+  padding: 5px;
+  resize: none;
+  height: 100px;
+  width: 48%;
+}
+
+button {
+  padding: 10px 20px;
+}
